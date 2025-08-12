@@ -1,0 +1,10 @@
+.fac-layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 56px); }
+.fac-sidebar { border-right: 1px solid var(--border); padding: 16px; }
+.fac-sidebar a { display: block; padding: 8px 10px; border-radius: 6px; margin-bottom: 6px; }
+.fac-sidebar a.active-link { background: #f3f4f6; }
+.fac-content { padding: 16px; }
+.kpi { display: grid; gap: 12px; grid-template-columns: repeat(3, 1fr); margin-bottom: 16px; }
+.kpi .card { padding: 16px; }
+.calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; }
+.calendar-cell { border: 1px solid var(--border); border-radius: 8px; padding: 8px; min-height: 70px; background: #fff; font-size: 12px; }
+.calendar-cell .count { font-weight: bold; color: var(--primary); }

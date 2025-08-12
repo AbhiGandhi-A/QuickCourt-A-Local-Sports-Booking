@@ -1,0 +1,8 @@
+.admin-layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 56px); }
+.admin-sidebar { border-right: 1px solid var(--border); padding: 16px; }
+.admin-sidebar a { display: block; padding: 8px 10px; border-radius: 6px; margin-bottom: 6px; }
+.admin-sidebar a.active-link { background: #f3f4f6; }
+.admin-content { padding: 16px; }
+.admin-kpi { display: grid; gap: 12px; grid-template-columns: repeat(4, 1fr); margin-bottom: 16px; }
+.admin-kpi .card { padding: 16px; }
+.search-row { display: grid; gap: 8px; grid-template-columns: 2fr 1fr 1fr auto; }
